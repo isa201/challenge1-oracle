@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge1</title>
+  </head>
+
+  <body>
+    <h1>ENCRIPTADOR</h1>
+    <section>
+      <div id="campo-cifrado">
+        <input id="cifrar" type="text" style="width: 280px" />
+        <button id="botonCifrar" onclick="cifrarTexto()">CIFRAR</button>
+        <button id="copiar" onclick="copiar()">Copiar</button>
+      </div>
+
+      <div>
+        <h3>Mensaje encriptado</h3>
+        <input id="descifrar" type="text" style="width: 280px" />
+        <button id="limpiar" onclick="vaciar()">Resetear</button>
+        <button id="descenciptar" onclick="descifrarTexto()">DESCIFRAR</button>
+      </div>
+    </section>
+
+    <script src="encriptador.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  background-image: url(img/abstract-background-geometric-gradient-shape-elements-pattern-dynamic-shape-compositions-vector.jpg);
+  font-family: "Fira code";
+}
+h1 {
+  text-align: center;
+}
+section {
+  background-color: blanchedalmond;
+  width: 350px;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+section #campo-cifrado {
+  background-color: rgba(175, 43, 43, 0.836);
+  width: 300px;
+  height: 40px;
+  padding: 20px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+section div {
+  background-color: rgba(136, 192, 104, 0.822);
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+section #cifrar,
+#descifrar {
+  margin-bottom: 5px;
+  outline: none;
+}
+
+section button {
+  font-family: "Fira code";
+}
